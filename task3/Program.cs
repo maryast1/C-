@@ -8,7 +8,6 @@ for (int i = 0; i < array.Length; i++)
     array[i] = random.NextDouble() * 100;
     Console.WriteLine(array[i].ToString("F3"));
 }
-
 // получить минимальный элемент
 Console.WriteLine("Smallest  Element: " + array.Min());
 
